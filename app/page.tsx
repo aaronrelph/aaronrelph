@@ -6,7 +6,7 @@ export default function Home() {
  
       👋
 
-      <p>I&apos;m Aaron, a software designer based in LA. Currently, I&apos;m designing machine learning tools at Baseten. Before that, I led enterprise
+      <p>I&apos;m Aaron, a software designer based in LA. Currently, I&apos;m designing machine learning tools at <Link href="https://baseten.co" className="hover:underline" target='_blank'>Baseten</Link>. Before that, I led enterprise
         design at <Link href="https://github.com" className="hover:underline" target='_blank'>GitHub</Link>, spent some time at <Link href="https://gumroad.com" className="hover:underline" target="_blank">Gumroad</Link> and before that other places. 
       </p>
 

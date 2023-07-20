@@ -10,11 +10,11 @@ export default function Home() {
         design at GitHub, spent some time at Gumroad and before that other places. 
       </p>
 
-      <div className='flex flex-col'>
-        <Link href="https://github.com/relph" target='_blank'>GitHub</Link>
-        <Link href="https://twitter.com/aaronrelph" target='_blank'>Twitter</Link>
-        <Link href="https://www.linkedin.com/in/aaronrelph/" target='_blank'>LinkedIn</Link>
-        <Link href="mailto:aaronrelph@gmail.com">Email</Link>
+      <div className='flex flex-col items-start'>
+        <Link href="https://github.com/relph"  className="hover:underline" target='_blank'>GitHub</Link>
+        <Link href="https://twitter.com/aaronrelph"  className="hover:underline" target='_blank'>Twitter</Link>
+        <Link href="https://www.linkedin.com/in/aaronrelph/"  className="hover:underline" target='_blank'>LinkedIn</Link>
+        <Link href="mailto:aaronrelph@gmail.com" className="hover:underline">Email</Link>
       </div>
       
     </main>

@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col p-24 gap-8 w-full md:w-1/2">
+    <main className="flex min-h-screen flex-col p-24 gap-8 w-full md:w-3/4 lg:w-1/2">
       <p>👋</p>
       <p>I&apos;m Aaron, a product designer based in Los Angeles. ☀️</p>
       <p>

@@ -4,9 +4,9 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col p-24 gap-8 w-full md:w-3/4 lg:w-1/2">
       <p>👋</p>
-      <p>I&apos;m Aaron, a product designer based in Los Angeles. ☀️</p>
-      <p>
-        Currently, I&apos;m designing at{' '}
+      <p>I&apos;m Aaron, a designer based in San Francisco.</p>
+      <p className="leading-relaxed">
+        Currently, I lead design at{' '}
         <Link
           href="https://baseten.co"
           className="hover:underline text-green-500"
@@ -14,53 +14,37 @@ export default function Home() {
         >
           Baseten
         </Link>
-        , a tool that makes deploying, serving and monitoring machine learning
-        models easy. Before Baseten, I was a designing developer tools at{' '}
+        , an infrastructure platform that empowers AI companies to seamlessly
+        deploy, serve, and scale machine learning models—
         <Link
-          href="https://github.com"
-          className="hover:underline text-gray-400"
+          href="https://jobs.ashbyhq.com/baseten"
+          className="hover:underline text-green-500"
+          target="_blank"
+        >
+          we're hiring
+        </Link>
+        ! Before Baseten, I was building developer tools and leading design for
+        the enterprise team at{' '}
+        <Link
+          href="https://github.com/home"
+          className="hover:underline text-blue-500"
           target="_blank"
         >
           GitHub
         </Link>{' '}
-        , spent some time at{' '}
+        , and built tools that empower creators at{' '}
         <Link
           href="https://gumroad.com"
           className="hover:underline text-pink-500"
           target="_blank"
         >
           Gumroad
-        </Link>{' '}
-        and before that{' '}
-        <Link
-          href="https://www.linkedin.com/in/aaronrelph/"
-          className="hover:underline text-blue-600"
-          target="_blank"
-        >
-          other places
         </Link>
+        .
       </p>
 
       <div className="flex flex-col items-start gap-2">
-        <h2 className="text-slate-500">Recent projects</h2>
-        <Link
-          href="https://chatoss.dev"
-          className="hover:underline hover:text-blue-600"
-          target="_blank"
-        >
-          ChatOSS
-        </Link>
-        <Link
-          href="https://hallmonitor.co"
-          className="hover:underline hover:text-blue-600"
-          target="_blank"
-        >
-          Hall Monitor
-        </Link>
-      </div>
-
-      <div className="flex flex-col items-start gap-2">
-        <h2 className="text-slate-500">Online</h2>
+        <h2 className="text-slate-500">Find me</h2>
         <Link
           href="https://github.com/relph"
           className="hover:underline hover:text-blue-600"
@@ -69,18 +53,18 @@ export default function Home() {
           GitHub
         </Link>
         <Link
-          href="https://twitter.com/aaronrelph"
-          className="hover:underline hover:text-blue-600"
-          target="_blank"
-        >
-          Twitter
-        </Link>
-        <Link
           href="https://www.linkedin.com/in/aaronrelph/"
           className="hover:underline hover:text-blue-600"
           target="_blank"
         >
           LinkedIn
+        </Link>
+        <Link
+          href="https://twitter.com/aaronrelph"
+          className="hover:underline hover:text-blue-600"
+          target="_blank"
+        >
+          X
         </Link>
         <Link
           href="mailto:aaronrelph@gmail.com"

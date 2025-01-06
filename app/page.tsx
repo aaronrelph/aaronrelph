@@ -2,11 +2,11 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col p-24 gap-8 w-full md:w-3/4 lg:w-1/2">
+    <main className="flex min-h-screen flex-col p-24 gap-8 w-full md:w-3/4 lg:w-3/5">
       <p>👋</p>
       <p>I&apos;m Aaron, a designer based in San Francisco.</p>
       <p className="leading-relaxed">
-        Currently, I lead design at{' '}
+        I currently lead design at{' '}
         <Link
           href="https://baseten.co"
           className="hover:underline text-green-500"
@@ -14,8 +14,8 @@ export default function Home() {
         >
           Baseten
         </Link>
-        , an infrastructure platform that empowers AI companies to seamlessly
-        deploy, serve, and scale machine learning models—
+        , a platform for deploying, serving, and scaling machine learning models
+        -
         <Link
           href="https://jobs.ashbyhq.com/baseten"
           className="hover:underline text-green-500"
@@ -23,16 +23,15 @@ export default function Home() {
         >
           we're hiring
         </Link>
-        ! Before Baseten, I was building developer tools and leading design for
-        the enterprise team at{' '}
+        ! Before this, I worked on developer tools and led design for{' '}
         <Link
           href="https://github.com/home"
           className="hover:underline text-blue-500"
           target="_blank"
         >
-          GitHub
+          GitHub’s
         </Link>{' '}
-        , and built tools that empower creators at{' '}
+        enterprise team, and before that, I built tools for creators at{' '}
         <Link
           href="https://gumroad.com"
           className="hover:underline text-pink-500"
